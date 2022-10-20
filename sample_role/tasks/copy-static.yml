@@ -1,0 +1,5 @@
+---
+  - name: Copying files
+    copy: 
+      src: demofile.txt 
+      dest: /home/sarvottam/Desktop/

@@ -1,0 +1,6 @@
+---
+  - name: ansible role demo
+    hosts: localhost         #you can specify here your hosts /etc/ansible/hosts
+    become: yes
+    roles:
+      - sample_role

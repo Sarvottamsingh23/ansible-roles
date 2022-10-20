@@ -1,0 +1,5 @@
+---
+  - include: nginx.yml
+  - include: copy-static.yml
+  - include: copy-template.yml
+    

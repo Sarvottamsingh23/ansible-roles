@@ -1,0 +1,6 @@
+---
+  - name: sample template
+    template:
+      src: template-file.j2
+      dest: /home/sarvottam/Desktop/copy-template-file.j2
+    with_items: var_x
